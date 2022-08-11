@@ -1,13 +1,5 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The project is a crowdfunding smart contract, that uses Chainlink Data Feeds
+Also covered the contract by tests, using mocks
+Deploy contracts via hardhat-deploy plugin and verify deploy programmatically vie hardhat-etherscan plugin
